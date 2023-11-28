@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-xbeq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-tenant/appstudio/devfile-sample-python-basic-xbeq@sha256:70d86fadf84a4cb8a4106f27d74e19b4390a2bfcd48edad7ef1ca46d6301f7a1
+        name: container-image
+        resources: {}
+status: {}
